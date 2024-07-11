@@ -108,3 +108,12 @@ function setLanguage(language) {
     document.getElementById('footer-text-2').innerHTML = translations[language].footerText2;
     document.getElementById('footer-text-3').innerHTML = translations[language].footerText3;
 }
+
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    // Simulating loading process
+    setTimeout(function () {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+    }, 5000); // 3 sekund
+});

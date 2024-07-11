@@ -264,6 +264,9 @@
     justify-content: space-around;
 }
 
+.res-img {
+    display: none;
+}
 
 @media (max-width:1280px) {
     .sonlar {
@@ -275,7 +278,26 @@
         justify-content: center;
     }
 
+    .how-it-works {
+        padding-left: 0px;
+    }
+
     .chiziq {
         display: none;
     }
+}
+
+@media (max-width:522px) {
+    .res-img {
+        display: block;
+    }
+
+    .foot-img {
+        display: none;
+    }
+}
+
+.swi {
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
