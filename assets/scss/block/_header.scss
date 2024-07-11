@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 44px;
+    align-items: center;
+
+    &_text {
+        display: flex;
+        gap: 30px;
+    }
+
+    &_text li a {
+        font-family: Barlow;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        color: #83888F;
+        text-transform: uppercase;
+    }
+
+    &_text li a:hover {
+        color: black;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    &_lang {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    &_lang li a {
+        font-family: Barlow;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        color: #83888F;
+        text-transform: uppercase;
+    }
+
+    &_lang li a:active {
+        color: black;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+
+.bars {
+    font-size: 25px;
+    color: rgb(13, 13, 13);
+    display: none;
+
+}
+
+@media (max-width:680px) {
+
+    .header_text,
+    .header_lang {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+}

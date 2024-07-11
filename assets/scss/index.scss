@@ -1,0 +1,41 @@
+@import './fonts';
+@import './normalize';
+@import './block/block';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.swiper {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+
+.scroll-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    animation: scroll 10s linear infinite;
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,281 @@
+.made {
+    font-family: Fraunces;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: left;
+    color: #FEFCF7;
+}
+
+.your {
+    padding-top: 32px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #FEFCF7;
+}
+
+.plan {
+    padding: 16px 30px;
+    color: #66D2CF;
+    border: 1px solid #66D2CF;
+    background: transparent;
+    border-radius: 12px;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.box-one {
+    padding-top: 117px;
+    padding-left: 85px;
+}
+
+.plan:hover {
+    background-color: #66D2CF;
+    color: #fefcf7;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.great {
+    background-image: url(../images/bacroud.svg);
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 44px;
+
+    &-box {
+        padding-left: 85px;
+        padding-top: 117px;
+        padding-bottom: 117px;
+    }
+}
+
+@media (max-width:650px) {
+    .great {
+        &-box {
+            padding-left: 50px;
+        }
+    }
+
+    .made {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 100%;
+        color: #fefcf7;
+    }
+
+    .your {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 167%;
+        color: #fefcf7;
+    }
+}
+
+.item_text {
+    padding-top: 71px;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.item_text2 {
+    padding-top: 24px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.why {
+    background: #2C343E;
+    width: 80%;
+    // display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 44px;
+
+    &_text1 {
+        padding-top: 100px;
+        text-align: center;
+        font-family: Fraunces;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    &_text2 {
+        padding-top: 32px;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+}
+
+.box1 {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 86px;
+
+    &_2box {
+        width: 350px;
+        height: 382px;
+        background-color: #0E8784;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+.best {
+    padding-top: 56px;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.cofe {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 71px;
+    -top: 72px;
+}
+
+.artisan {
+    padding-top: 24px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.box1_2box:hover {
+    background-color: #0A6260;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media (max-width:1348px) {
+    .box1 {
+        display: block;
+    }
+
+    .res {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+
+.how-it-works {
+    padding-top: 140px;
+    padding-left: 140px;
+}
+
+.how_text {
+    color: #83888F;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+}
+
+.yumoloq {
+    width: 30px;
+    height: 30px;
+    background-color: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+
+.line {
+    width: 625px;
+    border: 2px solid #FDD6BA
+}
+
+
+.chiziq {
+    align-items: center;
+    padding-top: 95px;
+    display: flex;
+}
+
+.son {
+    padding-top: 68px;
+
+    &_raqam {
+        font-family: Fraunces;
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+        text-align: left;
+        color: #FDD6BA;
+    }
+
+    &_text {
+        padding-top: 38px;
+        font-family: Fraunces;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        text-align: left;
+        color: #333D4B;
+    }
+
+    &_text2 {
+        padding-top: 42px;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        color: #333D4B;
+    }
+}
+
+.sonlar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media (max-width:1280px) {
+    .sonlar {
+        display: block;
+    }
+
+    .sonlar-res {
+        display: flex;
+        justify-content: center;
+    }
+
+    .chiziq {
+        display: none;
+    }
+}
